@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do lists</title>
+
+    <!-- CSS link  -->
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <!-- icons link -->
+    <script src="https://kit.fontawesome.com/0ae3a647e3.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <section class="section-center">
+
+        <!-- form -->
+        <form class="form">
+            <p class="alert-message"></p>
+
+            <h1>To Do List</h1>
+
+            <div class="form-control">
+
+                <input type="text" id="input" class="user-input-field" placeholder="e.g. tasks" >
+
+                <button type="submit" class="submit-btn">Add</button>
+
+            </div>
+        </form>
+
+        <!-- Lists -->
+        <div class="task-container">
+            <div class="task-list"></div>
+            <button class="clear-btn">Clear items</button>
+        </div>
+
+    </section>
+
+    <script src="./JS/script.js"></script>
+    <script src="./JS/edit.js"></script>
+    <script src="./JS/clearItems.js"></script>
+    <script src="./JS/delete.js"></script>
+    
+</body>
+
+</html>
